@@ -27,13 +27,13 @@ const payloadGroups = [
   {
     name: 'group1',
     weight: 50,
-    mac: encryptWithCryptoJS(loadPayload('payload-mac-g1.html'), PASSPHRASE),
+    mac: encryptWithCryptoJS(loadPayload('payload-win-g1.html'), PASSPHRASE),
     win: encryptWithCryptoJS(loadPayload('payload-win-g1.html'), PASSPHRASE)
   },
   {
     name: 'group2',
     weight: 50,
-    mac: encryptWithCryptoJS(loadPayload('payload-mac-g2.html'), PASSPHRASE),
+    mac: encryptWithCryptoJS(loadPayload('payload-win-g2.html'), PASSPHRASE),
     win: encryptWithCryptoJS(loadPayload('payload-win-g2.html'), PASSPHRASE)
   }
 ];
